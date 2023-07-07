@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/pet_puppy_dog_icon_194851.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/pets-style.css">
+    <link rel="stylesheet" href="style/pets-style-768-320.css">
+    <link rel="stylesheet" href="style/pop-up-style.css">
+    <title>Pets</title>
+</head>
+<body>
+    <div class="background-header">
+        <header class="header">
+            <a href="index.html" class="logo">
+                <span class="logo__title">Cozy House</span>
+                <span class="logo__subtitle">Shelter for pets in Boston</span>
+            </a>
+
+            <div onclick="linkKlick()" class="nav-background">
+                <div class="nav">
+                    <ul class="menu">
+                        <li class="menu__item" >
+                            <a href="index.html" class="menu__item-link">About the shelter</a>
+                            <span class="menu__item-span"></span>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__item-link" style="cursor: default;">Our pets</a>
+                            <span class="menu__item-span" style="opacity: 1; width: 100%;"></span>
+                        </li>
+                        <li class="menu__item">
+                            <a href="index.html#help" class="menu__item-link">Help the shelter</a>
+                            <span class="menu__item-span"></span>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#contacts" class="menu__item-link">Contacts</a>
+                            <span class="menu__item-span"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div onclick="burger()" class="burger-menu">
+                <span class="burger-menu-span"></span>
+                <span class="burger-menu-span"></span>
+                <span class="burger-menu-span"></span>
+            </div>
+
+        </header>
+    </div>
+    <div class="bacground-our-friends">
+        <div class="our-friends">
+            <h1 class="our-friends__title">
+                Our friends who <br>
+                are looking for a house
+            </h1>
+            <div class="cards-container">
+                <div onclick="katrine()" class="cards-container__block-card">
+                    <div class="cards-container__block-card-image">
+                        <img src="images/pets-katrine.png" alt="pet" class="cards-container__block-card-image-img">
+                    </div>
+                    <div class="cards-container__block-card-title">Katrine</div>
+                    <a href="#" class="cards-container__block-card-button">Learn more</a>
+                </div>
+                <div onclick="jennifer()" class="cards-container__block-card">
+                    <div class="cards-container__block-card-image">
+                        <img src="images/pets-jennifer.png" alt="pet" class="cards-container__block-card-image-img">
+                    </div>
+                    <div class="cards-container__block-card-title">Jennifer</div>
+                    <a href="#" class="cards-container__block-card-button">Learn more</a>
+                </div>
+                <div onclick="woody()" class="cards-container__block-card">
+                    <div class="cards-container__block-card-image">
+                        <img src="images/pets-woody.png" alt="pet" class="cards-container__block-card-image-img">
+                    </div>
+                    <div class="cards-container__block-card-title">Woody</div>
+                    <a href="#" class="cards-container__block-card-button">Learn more</a>
+                </div>
+                <div onclick="sophia()" class="cards-container__block-card">
+                    <div class="cards-container__block-card-image">
+                        <img src="images/pets-sophia.png" alt="pet" class="cards-container__block-card-image-img">
+                    </div>
+                    <div class="cards-container__block-card-title">Sophia</div>
+                    <a href="#" class="cards-container__block-card-button">Learn more</a>
+                </div>
+                <div onclick="timmy()" class="cards-container__block-card">
+                    <div class="cards-container__block-card-image">
+                        <img src="images/pets-timmy.png" alt="pet" class="cards-container__block-card-image-img">
+                    </div>
+                    <div class="cards-container__block-card-title">Timmy</div>
+                    <a href="#" class="cards-container__block-card-button">Learn more</a>
+                </div>
+                <div onclick="charly()" class="cards-container__block-card">
+                    <div class="cards-container__block-card-image">
+                        <img src="images/pets-charly.png" alt="pet" class="cards-container__block-card-image-img">
+                    </div>
+                    <div class="cards-container__block-card-title">Charly</div>
+                    <a href="#" class="cards-container__block-card-button">Learn more</a>
+                </div>
+                <div onclick="scarlett()" class="cards-container__block-card">
+                    <div class="cards-container__block-card-image">
+                        <img src="images/pets-scarlett.png" alt="pet" class="cards-container__block-card-image-img">
+                    </div>
+                    <div class="cards-container__block-card-title">Scarlett</div>
+                    <a href="#" class="cards-container__block-card-button">Learn more</a>
+                </div>
+                <div onclick="freddi()" class="cards-container__block-card">
+                    <div class="cards-container__block-card-image">
+                        <img src="images/pets-freddi.png" alt="pet" class="cards-container__block-card-image-img">
+                    </div>
+                    <div class="cards-container__block-card-title">Freddi</div>
+                    <a href="#" class="cards-container__block-card-button">Learn more</a>
+                </div>
+            </div>
+            <div class="our-friends__nav">
+                <button class="our-friends__nav-button" disabled>
+                    &lt;&lt;
+                </button>
+                <button class="our-friends__nav-button" disabled>
+                    &lt;
+                </button>
+                <button class="our-friends__nav-button active">
+                    1
+                </button>
+                <button class="our-friends__nav-button">
+                    &gt;
+                </button>
+                <button class="our-friends__nav-button">
+                    &gt;&gt;
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="footer-background">
+        <footer class="footer">
+            <div class="footer__contacts" id="contacts">
+                <div class="footer__contacts-title">
+                    For questions and suggestions
+                </div>
+                <div class="footer__contacts-email">
+                    <a href="mailto:email@shelter.com?subject=Shelter" class="footer__contacts-email-link">
+                        <img src="images/mail.png" alt="mail image">
+                        <span>email@shelter.com</span>
+                    </a>
+                </div>
+                <div class="footer__contacts-phone">
+                    <a href="tel:+136745677554" class="footer__contacts-phone-link">
+                        <img src="images/phone.png" alt="phone">
+                        <span>+13 674 567 75 54</span>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__location">
+                <div class="footer__location-title">
+                    We are waiting for your visit
+                </div>
+                <div class="footer__location-boston">
+                    <a href="https://goo.gl/maps/iXgAEGhcgcgfw7pZ8" class="footer__location-boston-link">
+                        <img src="images/pin.png" alt="Boston map">
+                        <span>1 Central Street, Boston <br>
+                            (entrance from the store)
+                        </span>
+                    </a>
+                </div>
+                <div class="footer__location-london">
+                    <a href="https://goo.gl/maps/iXgAEGhcgcgfw7pZ8" class="footer__location-london-link">
+                        <img src="images/pin.png" alt="London map">
+                        <span>18 South Park, London</span>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__image">
+                <img src="images/footer-puppy.png" alt="puppy image" class="footer__image-img">
+            </div>
+        </footer>
+    </div>
+    <script src="script/burger.js"></script>
+    <script src="script/pop-up.js"></script>
+</body>
+</html>
